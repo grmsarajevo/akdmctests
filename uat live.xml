@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser" value="ie" />
+  <parameter name="username" value="grmadmin" />
+  <parameter name="password" value="Green2009River"/>
+    <classes>
+      <class name="uatSiteFormsTests.NumberOfGuestsTest"/>
+      <class name="uatSiteFormsTests.ValidSendToClientFormSubmit"/>
+      <class name="uatSiteFormsTests.SearchTest"/>
+      <class name="uatSiteFormsTests.EUPaymentFormLimitsTest"/>
+      <class name="uatSiteFormsTests.USPaymentFormLimitsTest"/>
+      <class name="uatSiteFormsTests.EmailValidationTests"/>
+      <class name="uatSiteFormsTests.EmptyGuestFormTest"/>
+      <class name="uatSiteFormsTests.EUPaymentFormPlaceholdersTest"/>
+      <class name="uatSiteFormsTests.EmptyPaymentFormTest"/>
+      <class name="uatSiteFormsTests.GuestFormDateValidationTest"/>
+      <class name="uatSiteFormsTests.ValidEuropePaymentFormSubmitTest"/>
+      <class name="uatSiteFormsTests.ValidNewsletterFormSubmitTest"/>
+      <class name="uatSiteFormsTests.USPaymentFormPlaceholdersTest"/>
+      <class name="uatSiteFormsTests.EmptyNewsletterTest"/>
+      <class name="uatSiteFormsTests.ValidRequestAQuoteFormSubmit"/>
+      <class name="uatSiteFormsTests.ValidGuestFormSubmitTest"/>
+      <class name="uatSiteFormsTests.ValidUSPaymentFormSubmitTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!--  To perform tests on live server simply change the value of site attribute in AKDMCTestAutomationScripts/src/container/SharedData.java class -->
+<!--  Note that you also have to provide valid username and password for umbraco -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="2.591">
+  <properties />
+            <testcase name="test2" time="0.965" classname="devSiteFormsTests.GuestFormDateValidationTest">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test3" time="0.974" classname="devSiteFormsTests.GuestFormDateValidationTest">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test1" time="0.652" classname="devSiteFormsTests.GuestFormDateValidationTest">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+  
+  
+  
+</testsuite>

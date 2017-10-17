@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="6"
+           failures="6"
+           errors="0"
+           skipped="0"
+           time="53.017">
+  <properties />
+            <testcase name="test5" time="10.207" classname="devSiteFormsTests.EmailValidationTests">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test3" time="6.004" classname="devSiteFormsTests.EmailValidationTests">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test1" time="18.489" classname="devSiteFormsTests.EmailValidationTests">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test4" time="1.024" classname="devSiteFormsTests.EmailValidationTests">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test6" time="10.203" classname="devSiteFormsTests.EmailValidationTests">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="test2" time="7.090" classname="devSiteFormsTests.EmailValidationTests">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+  
+  
+  
+</testsuite>
